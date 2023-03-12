@@ -7,3 +7,5 @@ max-arestas = [(n - k) . (n - k + 1)]/2
 n = 9, k = 1 -> max-arestas = (8 . 9)/2 = 36 arestas
 
 se m > 8 -> grafo possui ciclo 
+
+
