@@ -97,23 +97,22 @@ Aij =
 
 ##  Lista de Adjacência 
 -  As listas de adjacência representam univocamente um grafo G
-- Um grafo G pode ser representado por diferentes listas de adjacência pois os 
-elementos podem aparecer em qualquer ordem nas listas
-- Para grafos direcionados, deve-se optar por armazenar os sucessores ou os 
-predecessores dos vértices (ou dobrar o custo de armazenamento)
-- A consulta é mais cara para se determinar a existência de arco incidente a um 
-vértice – tempo linear no número de vértices, isto é, O(n) para grafo denso
+- Um grafo G pode ser representado por diferentes listas de adjacência pois os elementos podem aparecer em qualquer ordem nas listas
+- Grau de um vértice = tamanho da lista do vértice
+- Para grafos direcionados, deve-se optar por armazenar os sucessores ou os predecessores dos vértices (ou dobrar o custo de armazenamento, o que pode não ser interessante)
+- A consulta é mais cara para se determinar a existência de arco incidente a um vértice – tempo linear no número de vértices, isto é, O(n) para grafo denso
 - Ela ocupa um espaço proporcional a O(n + m)
 
 ### 5. Lista de Adjacência - Grafo Direcionado 
 
-Dado grafo direcionado G = (V, E) com n vértices, é possível representá-lo por meio de n listas de adjacência de modo que a lista de adjacência do vértice v, ou 𝕃 [𝑣], contém todos os vértices que são sucessores (ou predecessores) de v.
+Dado grafo direcionado G = (V, E) com n vértices, é possível representá-lo por meio de n listas de adjacência de modo que a lista de adjacência do vértice v, ou 𝕃 [𝑣], contém todos os vértices que são OU sucessores OU predecessores de v.
 
-Lista de sucessores: 𝕃 [𝑣] = {𝑤 ∈ V(G) | (𝒗, 𝑤) ∈ E(G)}
-
-![image](https://user-images.githubusercontent.com/89612369/223883714-062cf264-cdf2-4fa7-80a3-2de060c5ebab.png)
-
-![image](https://user-images.githubusercontent.com/89612369/223883881-6d315438-c5c7-4656-847f-e52176a3fbf6.png)
+Exemplo 1: Lista de sucessores de G <br/>
+L[𝑣] = {𝑤 ∈ V(G) | (𝒗, 𝑤) ∈ E(G)} <br/>
+![image](https://user-images.githubusercontent.com/89612369/223883714-062cf264-cdf2-4fa7-80a3-2de060c5ebab.png) <br/>
+Exemplo 2: Lista de predecessores de G <br/>
+L[𝑣] = {𝑤 ∈ V(G) | (w, 𝒗) ∈ E(G)} <br/>
+![image](https://user-images.githubusercontent.com/89612369/223883881-6d315438-c5c7-4656-847f-e52176a3fbf6.png) <br/>
 
 
 ### 6. Lista de Adjacência - Grafo Não-direcionado 
@@ -131,4 +130,4 @@ Dado grafo não direcionado G = (V, E) com n vértices, é possível representá
 
 ![image](https://user-images.githubusercontent.com/89612369/223884448-703a498d-5e03-4a59-9586-f37a09dd40ee.png)
 
-
+---> investigar *foward star* e *reverse star*
