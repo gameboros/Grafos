@@ -1,4 +1,6 @@
-Grafo: um grafo G é dado por um conjunto finito não vazio de vértices V e um conjunto de arestas E representando pares de vértices. 
+## Grafo
+
+Um grafo G é dado por um conjunto finito não vazio de vértices V e um conjunto de arestas E representando pares de vértices. 
 - Notação: G = (V, E)
 - Vértices = V(G)
 - Arestas = E(G)
