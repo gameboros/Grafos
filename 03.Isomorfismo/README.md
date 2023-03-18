@@ -14,7 +14,7 @@ Exemplo 1: os dois grafos podem ser isomorfos, mas não existe algoritmo eficien
 Exemplo 2: os dois grafos são isomorfos. 
 ![image](https://user-images.githubusercontent.com/89612369/226103721-6bf501ad-d2ba-4ceb-a2b4-736772b39599.png)
 
-# Subgrafo
+# Subgrafos
 
 Um grafo H = (V1, E1) é dito subgrafo de G = (V,E) se V1 estiver contido ou for igual a V e E1 estiver contido ou for igual a E. 
 
