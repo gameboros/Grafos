@@ -16,8 +16,9 @@ Exemplo 2: os dois grafos são isomorfos.
 
 # Subgrafos
 
-Um grafo H = (V1, E1) é dito subgrafo de G = (V,E) se V1 estiver contido ou for igual a V e E1 estiver contido ou for igual a E. 
+Um grafo H = (V1, E1) é dito subgrafo de G = (V,E) se V1 estiver contido ou for igual a V e E1 estiver contido ou for igual a E. É possível remover arestas e/ou vértices de um grafo para se obter um subgrafo. 
 
+Exemplo: 
 ![image](https://user-images.githubusercontent.com/89612369/226104508-5a6b0f32-7b8f-4af6-8e92-b1b3ce88c9ed.png)
 
-É possível remover arestas e/ou vértices de um grafo para se obter um subgrafo. 
+
